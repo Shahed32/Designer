@@ -1,0 +1,293 @@
+head{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height:70px;
+    width: 100%;
+    position: sticky;
+    align-items: center;
+    background-color: rgb(241, 239, 239);
+    top: 0;
+    left: 0;
+    display: flex;
+}
+header h1{
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: orangered;
+
+}
+
+header input{
+    padding: 10px;
+    padding-left: 22px;
+    width: 900px;
+    font-size: 15px;
+    margin-left: 50px;
+    background-color:white;
+    border: 1px solid orangered;
+    outline: none;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+header button{
+    padding: 12.5px;
+    font-size: 12px;
+    border: none;
+    color: aliceblue;
+    text-align: center;
+    background-color: orangered;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+header ul{
+    margin-left: -25px;
+    list-style: none;
+}
+header ul li {
+    width: 112px;
+    height: 50px;
+    line-height:50px;
+    border: 1px solid transparent;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    
+}
+header ul li a {
+    color: orangered;
+    
+}
+header ul li  :hover{
+    background-color: rgb(226, 226, 226);
+}
+.header{
+    margin-top: 1px;
+    height: 30px;
+    width: 100%;
+    border: 1px solid rgb(170, 170, 170);
+    display: flex;
+    top: 0;
+
+}
+.header ul{
+    margin-top: -5px;
+    list-style:none;
+}
+.header ul li{
+    width: 225px;
+    height: 40px;
+    line-height:40px;
+    background-color:transparent;
+    float: left;
+    text-align: center;
+    
+}
+.header ul li :hover{
+    transition: all ease-in 0.1s;
+    color: rgb(255, 60, 0);
+    background-color: rgb(241, 241, 241);
+    text-decoration: underline;
+}
+.header ul li a{
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+    text-transform:unset;
+    font-family:sans-serif;
+    font-size: 15px;
+}
+.header ul li ul li{
+     display:block;
+     margin-left: -40px;
+     background:rgb(255, 255, 255);
+
+}
+.header ul ul{
+    display: none;
+}
+.header ul ul:hover{
+    display: block;
+}
+.header li:hover>ul{
+    display: block;
+}
+.bar{
+    height: 85vh;
+    width: 100%;
+    background-image:url(portrait-smiling-businessman-dressed-suit.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+}
+.bar h1{
+    margin-left: 130px;
+    margin-top: 160px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:65px;
+    color: orangered;
+}
+.bar p{
+    margin-top: 350px;
+    margin-left: -580px;
+    font-size: 25px;
+
+}
+.bar button{
+    height: 60px;
+    width: 160px;
+    margin-top: 500px;
+    margin-left: -423px;
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: orangered;
+    box-shadow: 10px 10px 15px gray;
+}
+.bar button a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+.bar a:hover{
+    color: rgb(0, 0, 0);
+}
+.all-design{
+     width: 100%;
+}
+.all-design h2{
+    align-items: center;
+    margin-left: 70px;
+    font-size:40px;
+    font-family:sans-serif;
+    display: flex;
+}
+.all-design h2 p{
+    margin-top:50px;
+    margin-left: 9px;
+    font-size: 50px;
+    color: orangered;
+}
+.graphic-design{
+    margin-top: -30px;
+    margin-left: -12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid transparent;
+}
+.graphic-design2{
+    display: flex;
+}
+.graphic-design3{
+    display: flex;
+}
+.graphic-design4{
+    display: flex;
+}
+.all-design button{
+    margin-left: 15px;
+     padding: 10px;
+     background-color: orangered;
+     color: aliceblue;
+     font-size: 13px;
+     border-radius: 18px;
+     border: none;
+     box-shadow: 10px 7px 20px gray;
+}
+.graphic-design img{
+        height: 250px;
+        padding-left: 50px;
+}
+.graphic-design h1{
+    margin-left: 110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    margin-top:10px;
+}
+.graphic-design p{
+      margin-left: 65px;
+      font-size: 17px;
+      margin-top: -10px;
+      font-family: sans-serif;
+}
+.graphic-design .price{
+    margin-left: 120px;
+    font-size: 22px;
+    margin-top: -5px;
+}
+.graphic-design .buy{
+    margin-left:75px;
+    margin-top: 15px;
+    margin-bottom: 90px;
+}
+footer{
+    height: 370px;
+    width: 100%;
+    background-color: rgb(241, 239, 239);
+    bottom: 0;
+    display: flex;
+}
+footer h1{
+    font-size: 40px;
+    margin-left:800px;
+    font-family: sans-serif;
+    text-align: center;
+}
+footer .maindiv{
+    margin-top: 80px;
+    display: flex;
+    margin-left: -1100px;
+}
+footer ul {
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+    font-size: 20px;
+    color: black;
+}
+footer a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.pay-mathod{
+    height: 50px;
+    display: flex;
+}
+.pay-mathod i{
+    margin-top: 11px;
+    font-size: 25px;
+    margin-left: 250px;  
+}
+.pay-mathod ul{
+    list-style: none;
+}
+.pay-mathod li{
+    width: 160px;
+    text-decoration: none;
+    float: left;
+}
+.pay-mathod a{
+    text-decoration: none;
+    font-size: 20px;
+    color: orangered;
+}
+.pay-mathod a:hover{
+    text-decoration: underline;
+}
